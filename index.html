@@ -613,47 +613,28 @@
 
     <div class="intro-screen">
         <div class="intro-icon"><i class="fas fa-gift"></i></div>
-        <h1 class="intro-text">Joyeux Anniversaire<br>Kimberly</h1>
-        <p class="tap-instruction"><i class="fas fa-hand-pointer"></i> Touche l'écran pour continuer</p>
+        <h1 class="intro-text">¡Feliz Cumpleaños<br>Kimberly!</h1>
+        <p class="tap-instruction"><i class="fas fa-hand-pointer"></i> Toca la pantalla para continuar</p>
     </div>
 
     <div class="main-content">
         <div class="title-container">
             <div class="title-icon"><i class="fas fa-star"></i></div>
-            <h1 class="title">Pour Toi, Kimberly</h1>
-            <p class="subtitle">Un cadeau venu du coeur</p>
+            <h1 class="title">Para Ti, Kimberly</h1>
+            <p class="subtitle">Un regalo que viene del corazón</p>
         </div>
         
-        <div class="countdown-container">
-            <div class="countdown-title">
-                <i class="fas fa-birthday-cake"></i>
-                <span>Ton jour spécial</span>
-            </div>
-            <div class="countdown-timer" id="countdown">
-                <div class="time-unit">
-                    <span class="time-number" id="hours">00</span>
-                    <span class="time-label">Heures</span>
-                </div>
-                <div class="time-unit">
-                    <span class="time-number" id="minutes">00</span>
-                    <span class="time-label">Minutes</span>
-                </div>
-                <div class="time-unit">
-                    <span class="time-number" id="seconds">00</span>
-                    <span class="time-label">Secondes</span>
-                </div>
-            </div>
-        </div>
+
 
         <div class="message-box">
             <p class="message-text">
-                Tu t'attendais peut-être à un cadeau matériel...<br><br>
-                Mais celui-ci est un peu différent : un cadeau visuel, né de mes lignes de code et de mon envie de te faire sourire.<br><br>
-                J'ai fait tout mon possible pour combler ce vide avec des couleurs, de la lumière et un peu de sincérité.
+                Tal vez esperabas un regalo material...<br><br>
+                Pero este es un poco diferente: un regalo visual, nacido de mis líneas de código y de mis ganas de hacerte sonreír.<br><br>
+                Hice todo lo posible para llenar este vacío con colores, luz y un poco de sinceridad.
             </p>
             <div class="signature">
                 <i class="fas fa-heart"></i>
-                <span>Fait avec amour par <strong>Lubérisse Karl</strong></span>
+                <span>Hecho con amor por <strong>Lubérisse Karl</strong></span>
                 <i class="fas fa-heart"></i>
             </div>
         </div>
@@ -662,24 +643,32 @@
             <div class="gallery-container">
                 <div class="gallery-title">
                     <i class="fas fa-images"></i>
-                    <span>Souvenirs Précieux</span>
+                    <span>Recuerdos Preciosos</span>
                 </div>
                 <div class="memory-slider">
                     <div class="memory-item active">
                         <i class="fas fa-smile-beam" style="color: #ffd700;"></i>
-                        <p class="memory-text">"Chaque sourire que tu partages illumine le monde autour de toi"</p>
+                        <p class="memory-text">"Cada sonrisa que compartes ilumina el mundo a tu alrededor"</p>
                     </div>
                     <div class="memory-item">
                         <i class="fas fa-sparkles" style="color: #ff69b4;"></i>
-                        <p class="memory-text">"Tu es une étoile qui brille de mille feux, ne l'oublie jamais"</p>
+                        <p class="memory-text">"Eres una estrella que brilla con mil luces, nunca lo olvides"</p>
                     </div>
                     <div class="memory-item">
                         <i class="fas fa-heart" style="color: #ff6b9d;"></i>
-                        <p class="memory-text">"La gentillesse et la beauté que tu incarnes sont rares et précieuses"</p>
+                        <p class="memory-text">"La bondad y la belleza que encarnas son raras y preciosas"</p>
                     </div>
                     <div class="memory-item">
                         <i class="fas fa-crown" style="color: #ffd700;"></i>
-                        <p class="memory-text">"Aujourd'hui, c'est ton jour de reine. Profites-en pleinement!"</p>
+                        <p class="memory-text">"Hoy es tu día de reina. ¡Disfrútalo al máximo!"</p>
+                    </div>
+                    <div class="memory-item">
+                        <i class="fas fa-star" style="color: #00ffff;"></i>
+                        <p class="memory-text">"Que este nuevo año te traiga toda la felicidad que mereces"</p>
+                    </div>
+                    <div class="memory-item">
+                        <i class="fas fa-gift" style="color: #c86dd7;"></i>
+                        <p class="memory-text">"Eres un regalo precioso para todos los que te conocen"</p>
                     </div>
                 </div>
                 <div class="slider-dots">
@@ -687,6 +676,8 @@
                     <span class="dot" data-slide="1"></span>
                     <span class="dot" data-slide="2"></span>
                     <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                    <span class="dot" data-slide="5"></span>
                 </div>
             </div>
         </div>
@@ -694,19 +685,27 @@
         <div class="button-grid">
             <button class="magic-button" id="surpriseBtn">
                 <i class="fas fa-envelope-open-text"></i>
-                <span>Message Secret</span>
+                <span>Mensaje Secreto</span>
             </button>
             <button class="magic-button" id="quoteBtn">
                 <i class="fas fa-quote-left"></i>
-                <span>Citation</span>
+                <span>Cita Inspiradora</span>
+            </button>
+            <button class="magic-button" id="wishBtn">
+                <i class="fas fa-star"></i>
+                <span>Deseo Especial</span>
             </button>
             <button class="magic-button" id="fireworkBtn">
                 <i class="fas fa-fire"></i>
-                <span>Feu d'artifice</span>
+                <span>Fuegos Artificiales</span>
             </button>
             <button class="magic-button" id="replayBtn">
                 <i class="fas fa-redo"></i>
-                <span>Rejouer</span>
+                <span>Repetir</span>
+            </button>
+            <button class="magic-button" id="messageBtn">
+                <i class="fas fa-heart"></i>
+                <span>Mensaje de Cumpleaños</span>
             </button>
         </div>
     </div>
@@ -715,13 +714,13 @@
         <div class="modal-content">
             <button class="close-button" id="closeBtn"><i class="fas fa-times"></i></button>
             <div class="modal-icon"><i class="fas fa-gift"></i></div>
-            <h2>Message Secret</h2>
+            <h2>Mensaje Secreto</h2>
             <p>
-                Chaque étoile dans ce ciel a été placée avec soin,<br>
-                chaque particule danse pour toi,<br>
-                et chaque couleur vibre de bonheur.<br><br>
-                Que cette nouvelle année t'apporte autant de joie<br>
-                que tu en apportes aux autres!
+                Cada estrella en este cielo ha sido colocada con cuidado,<br>
+                cada partícula baila para ti,<br>
+                y cada color vibra de felicidad.<br><br>
+                ¡Que este nuevo año te traiga tanta alegría<br>
+                como tú le traes a los demás!
             </p>
         </div>
     </div>
@@ -730,8 +729,26 @@
         <div class="modal-content">
             <button class="close-button" id="closeQuoteBtn"><i class="fas fa-times"></i></button>
             <div class="modal-icon"><i class="fas fa-heart"></i></div>
-            <h2>Pour Toi</h2>
+            <h2>Para Ti</h2>
             <p id="quoteText"></p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="wishModal">
+        <div class="modal-content">
+            <button class="close-button" id="closeWishBtn"><i class="fas fa-times"></i></button>
+            <div class="modal-icon"><i class="fas fa-star"></i></div>
+            <h2>Deseo Especial</h2>
+            <p id="wishText"></p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="messageModal">
+        <div class="modal-content">
+            <button class="close-button" id="closeMessageBtn"><i class="fas fa-times"></i></button>
+            <div class="modal-icon"><i class="fas fa-birthday-cake"></i></div>
+            <h2>¡Feliz Cumpleaños!</h2>
+            <p id="messageText"></p>
         </div>
     </div>
 
@@ -864,13 +881,47 @@
 
         // Citations aléatoires
         const quotes = [
-            "La vie est un cadeau, chaque jour est une célébration!",
-            "Brille de mille feux, tu es une étoile!",
-            "Le bonheur, c'est de faire sourire ceux qu'on aime",
-            "Chaque instant est précieux, profites-en pleinement!",
-            "Tu mérites tout le bonheur du monde!",
-            "Ton sourire illumine les journées les plus sombres",
-            "Continue de répandre ta lumière partout où tu vas"
+            "La vida es un regalo, ¡cada día es una celebración! 🎉",
+            "Brilla con mil luces, ¡eres una estrella! ⭐",
+            "La felicidad es hacer sonreír a los que amamos 💝",
+            "¡Cada instante es precioso, disfrútalo plenamente! 🌸",
+            "¡Mereces toda la felicidad del mundo! 🌈",
+            "Tu sonrisa ilumina los días más oscuros ☀️",
+            "Sigue esparciendo tu luz donde quiera que vayas ✨",
+            "Eres más fuerte de lo que piensas 💪",
+            "Tu bondad hace del mundo un lugar mejor 🌍",
+            "Hoy celebramos la maravilla que eres 🎊",
+            "Que todos tus sueños se hagan realidad 🌟",
+            "Eres única y especial, nunca lo olvides 💖",
+            "La belleza de tu alma ilumina todo a tu alrededor 🌺",
+            "Gracias por existir y hacer nuestras vidas mejores 🙏",
+            "Cada año te vuelves más increíble 🎁"
+        ];
+
+        const wishes = [
+            "Que este nuevo año de vida esté lleno de aventuras maravillosas y momentos inolvidables.",
+            "Deseo que cada día te traiga una nueva razón para sonreír y ser feliz.",
+            "Que la vida te sorprenda con bendiciones inesperadas y alegrías infinitas.",
+            "Espero que logres todo lo que te propongas y más allá de tus sueños.",
+            "Que sigas siendo esa persona increíble que ilumina la vida de los demás.",
+            "Deseo que encuentres paz, amor y felicidad en cada paso que des.",
+            "Que este año esté lleno de salud, prosperidad y risas sin fin.",
+            "Espero que cada deseo que pidas se convierta en realidad.",
+            "Que la magia nunca abandone tu vida y que siempre mantengas esa chispa especial.",
+            "Deseo que cada amanecer te traiga esperanza y cada atardecer te deje en paz."
+        ];
+
+        const birthdayMessages = [
+            "¡Feliz cumpleaños, Kimberly! Que este día sea tan especial como tú lo eres para todos nosotros. Eres una persona increíble y mereces todo lo mejor.",
+            "En tu día especial, quiero que sepas lo afortunados que somos de tenerte en nuestras vidas. ¡Feliz cumpleaños! Que brilles siempre.",
+            "¡Feliz cumpleaños a la persona más maravillosa que conozco! Que este nuevo año de vida esté lleno de amor, risas y momentos mágicos.",
+            "Hoy celebramos el día en que llegaste a este mundo para hacerlo más hermoso. ¡Feliz cumpleaños, Kimberly! Eres un regalo para todos.",
+            "¡Feliz cumpleaños! Que cada vela en tu pastel represente un sueño cumplido y una bendición recibida. Te lo mereces todo.",
+            "En tu día especial, el universo entero celebra tu existencia. ¡Feliz cumpleaños! Que la vida te sonría siempre.",
+            "¡Feliz cumpleaños, Kimberly! Que este año te traiga todo lo que tu corazón desea y más. Eres extraordinaria.",
+            "Hoy es el día perfecto para recordarte lo especial que eres. ¡Feliz cumpleaños! Que tu luz nunca deje de brillar.",
+            "¡Feliz cumpleaños a alguien que hace del mundo un lugar mejor solo con su presencia! Que este día sea mágico.",
+            "Que este cumpleaños sea el inicio del mejor año de tu vida. ¡Feliz cumpleaños, Kimberly! Mereces todo el amor del mundo."
         ];
 
         document.getElementById('quoteBtn').addEventListener('click', function() {
@@ -882,6 +933,30 @@
 
         document.getElementById('closeQuoteBtn').addEventListener('click', function() {
             document.getElementById('quoteModal').classList.remove('active');
+        });
+
+        document.getElementById('closeWishBtn').addEventListener('click', function() {
+            document.getElementById('wishModal').classList.remove('active');
+        });
+
+        document.getElementById('closeMessageBtn').addEventListener('click', function() {
+            document.getElementById('messageModal').classList.remove('active');
+        });
+
+        // Deseo especial
+        document.getElementById('wishBtn').addEventListener('click', function() {
+            const wish = wishes[Math.floor(Math.random() * wishes.length)];
+            document.getElementById('wishText').textContent = wish;
+            document.getElementById('wishModal').classList.add('active');
+            createConfetti();
+        });
+
+        // Mensaje de cumpleaños
+        document.getElementById('messageBtn').addEventListener('click', function() {
+            const message = birthdayMessages[Math.floor(Math.random() * birthdayMessages.length)];
+            document.getElementById('messageText').textContent = message;
+            document.getElementById('messageModal').classList.add('active');
+            createConfetti();
         });
 
         // Message surprise
